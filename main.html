@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کافه Dady</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>کافه Dady</h1>
+    <div class="buttons">
+      <button onclick="navigateTo('hot')" >بار گرم</button>
+      <button onclick="navigateTo('cold')">بار سرد</button>
+      <button onclick="navigateTo('food')">غذا و میان‌وعده</button>
+    </div>
+    <button class="instagram" onclick="openInstagram()">اینستاگرام</button>
+  </div>
+
+  <div id="content" class="hidden">
+    <div class="sidebar"></div>
+    <div class="menu-items" id="menu-items"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
